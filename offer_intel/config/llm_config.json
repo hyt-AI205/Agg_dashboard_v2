@@ -1,0 +1,39 @@
+{
+  "default_provider": "openai",
+
+  "providers": {
+    "openai": {
+      "model": "gpt-4o",
+      "generation_config": {
+        "temperature": 0.2,
+        "top_p": 1.0,
+        "max_output_tokens": 800
+      },
+      "normalizer": {
+        "model": "gpt-4o-mini",
+        "generation_config": {
+          "temperature": 0.1,
+          "top_p": 1.0,
+          "max_output_tokens": 600
+        }
+      }
+    },
+
+    "groq": {
+      "model": "llama-3.3-70b-versatile",
+      "generation_config": {
+        "temperature": 0.2,
+        "top_p": 1.0,
+        "max_output_tokens": 700
+      },
+      "normalizer": {
+        "model": "llama-3.3-70b-versatile",
+        "generation_config": {
+          "temperature": 0.1,
+          "top_p": 1.0,
+          "max_output_tokens": 800
+        }
+      }
+    }
+  }
+}

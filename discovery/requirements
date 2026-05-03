@@ -1,0 +1,7 @@
+# requirements_discovery.txt
+# Add these to your existing requirements.txt
+
+apify-client>=1.7.0
+openai>=1.30.0
+pymongo>=4.7.0
+python-dotenv>=1.0.0

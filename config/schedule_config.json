@@ -1,0 +1,8 @@
+{
+  "global_scrape_interval_hours": 6,
+  "per_platform_overrides": {
+    "tiktok": 1,
+    "instagram": 1,
+    "facebook": 1
+  }
+}

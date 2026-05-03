@@ -1,0 +1,83 @@
+{
+  "tiktok": {
+    "profile_id": "nickname",
+    "posts_key": "top_posts_data",
+    "post_id": "post_id",
+    "post_text_key": "description",
+    "profile_meta": {
+      "nickname": "nickname",
+      "account_id": "account_id",
+      "biography": "biography",
+      "followers": "followers",
+      "likes": "likes",
+      "videos_count": "videos_count",
+      "is_verified": "is_verified",
+      "profile_created": "create_time",
+      "profile_url": "url",
+      "profile_pic": ["profile_pic_url_hd", "profile_pic_url"]
+    }
+  },
+  "apify_tiktok": {
+    "profile_id": "authorMeta.name",
+    "posts_key": "__single__",
+    "post_id": "webVideoUrl",
+    "post_text_key": "text",
+    "post_images_key": "images",
+    "post_video_key": "mediaUrls",
+    "profile_meta": {
+      "profile_handle": "authorMeta.name",
+      "avatar_url": "authorMeta.avatar"
+    }
+  },
+  "instagram": {
+    "profile_id": "account",
+    "posts_key": "posts",
+    "post_id": "id",
+    "post_text_key": "caption",
+    "profile_meta": {
+      "username": "account",
+      "full_name": "full_name",
+      "biography": "biography",
+      "followers": "followers",
+      "following": "following",
+      "profile_url": "url",
+      "profile_pic": "profile_pic_url"
+    }
+  },
+  "apify_instagram": {
+    "profile_id": "username",
+    "posts_key": "latestPosts",
+    "post_id": "url",
+    "post_text_key": "caption",
+    "post_images_key": "images",
+    "post_video_key": "videoUrl",
+    "profile_meta": {
+      "username": "username",
+      "full_name": "fullName",
+      "biography": "biography",
+      "followers": "followersCount",
+      "following": "followsCount",
+      "profile_url": "url",
+      "profile_pic": "profilePicUrl"
+    }
+  },
+  "facebook": {
+    "profile_id": "profile_handle",
+    "posts_key": "__single__",
+    "post_id": "post_id",
+    "post_text_key": "content",
+    "profile_meta": {
+      "profile_handle": "profile_handle",
+      "profile_id": "profile_id",
+      "page_name": "page_name",
+      "page_intro": "page_intro",
+      "page_category": "page_category",
+      "page_followers": "page_followers",
+      "page_logo": "page_logo",
+      "page_url": "page_url",
+      "page_creation_time": "page_creation_time",
+      "page_is_verified": "page_is_verified"
+    }
+  }
+
+  }
